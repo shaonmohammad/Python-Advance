@@ -15,3 +15,9 @@ print(dic1)
 # for delete last key value pairs
 dic1.popitem()
 print(dic1)
+
+
+new = {'a':1,'b':2,'c':[1,2,3]}
+new['c'].append(10)
+print(new)
+print(new.get('d'))
